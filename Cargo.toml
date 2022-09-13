@@ -1,0 +1,19 @@
+[package]
+name = "pixel"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glium = "*"
+gl = "0.14.0"
+
+egui = "*"
+egui_glium = "0.19.0"
+# egui_sdl2_gl = "0.16.0"
+
+glam = "0.21.3"
+
+libc = "*"
+const-zero = "0.1.0"
